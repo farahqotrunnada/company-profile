@@ -1,4 +1,4 @@
-import { Container, Typography, Box, Grid, Card, CardContent, CardMedia, Avatar } from '@mui/material';
+import { Container, Typography, Box, Grid, Card, CardContent, Avatar } from '@mui/material';
 
 import axios from 'axios';
 

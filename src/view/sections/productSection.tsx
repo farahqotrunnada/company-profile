@@ -1,7 +1,7 @@
-// 'use client';
+
 
 import React from 'react';
-import { Container, Typography, Box, Grid, Card, CardContent, CardMedia, Button } from '@mui/material';
+import {  Typography, Box, Grid, Card, CardContent, CardMedia, Button } from '@mui/material';
 import { TypeProductFields, TypeTestimonialFields } from '@/types/contentful';
 import { client } from '@/utils/contentful';
 import ThemeWrapper from '../components/themeWrapper';
@@ -91,7 +91,7 @@ const ProductSection = async () => {
               <Card raised sx={{ height: '100%', border: `1px solid #213260` }}>
                 <CardContent>
                   <Typography variant="subtitle1" color="primary" gutterBottom>
-                    "{testimonial.fields.quote}"
+                    &quot;{testimonial.fields.quote}&quot;
                   </Typography>
                   <Typography variant="body2" color="textSecondary" align="right">
                     - {testimonial.fields.author}

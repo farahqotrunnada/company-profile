@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, ReactNode } from 'react';
-import { Box, Button, Typography } from '@mui/material';
+import { Box, Button } from '@mui/material';
 
 type CustomCarouselProps = {
   items: ReactNode[];

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography, Box, Button } from '@mui/material';
+import { Typography, Box, Button } from '@mui/material';
 import { client } from '../../../utils/contentful';
 import { TypeHeroFields } from '@/types/contentful/TypeHero';
 

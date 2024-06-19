@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Container, Typography, Grid, TextField, Button, IconButton } from '@mui/material';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => (
   <Box
@@ -58,16 +59,16 @@ const Footer = () => (
           </Box>
           <Box sx={{ display: 'flex', justifyContent: 'center', marginTop: '1rem' }}>
             <IconButton href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <img src="/images/facebook.svg" alt="Facebook" style={{ width: 24, height: 24, filter: 'invert(100%)' }} />
+              <Image src="/images/facebook.svg" alt="Facebook" width={24} height={24} style={{ filter: 'invert(100%)' }} />
             </IconButton>
             <IconButton href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src="/images/instagram.svg" alt="Instagram" style={{ width: 24, height: 24, filter: 'invert(100%)' }} />
+              <Image src="/images/instagram.svg" alt="Instagram" width={24} height={24} style={{ filter: 'invert(100%)' }} />
             </IconButton>
             <IconButton href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <img src="/images/twitter.svg" alt="Twitter" style={{ width: 24, height: 24, filter: 'invert(100%)' }} />
+              <Image src="/images/twitter.svg" alt="Twitter" width={24} height={24} style={{ filter: 'invert(100%)' }} />
             </IconButton>
             <IconButton href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-              <img src="/images/youtube.svg" alt="YouTube" style={{ width: 24, height: 24, filter: 'invert(100%)' }} />
+              <Image src="/images/youtube.svg" alt="YouTube" width={24} height={24} style={{ filter: 'invert(100%)' }} />
             </IconButton>
           </Box>
         </Grid>
