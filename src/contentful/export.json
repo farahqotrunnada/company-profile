@@ -1,0 +1,2876 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "blog",
+        "type": "ContentType",
+        "createdAt": "2024-06-14T00:29:07.326Z",
+        "updatedAt": "2024-06-14T00:29:08.172Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-06-14T00:29:08.172Z",
+        "firstPublishedAt": "2024-06-14T00:29:08.172Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/content_types/blog"
+      },
+      "displayField": "title",
+      "name": "Blog",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "summary",
+          "name": "Summary",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "details",
+          "name": "Details",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code",
+                "superscript",
+                "subscript",
+                "strikethrough"
+              ],
+              "message": "Only bold, italic, underline, code, superscript, subscript, and strikethrough marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "table",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, table, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "articleimage",
+          "name": "articleImage",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "createdAt",
+          "name": "createdAt",
+          "type": "Date",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "company",
+        "type": "ContentType",
+        "createdAt": "2024-06-18T02:49:07.545Z",
+        "updatedAt": "2024-06-18T02:49:08.155Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-06-18T02:49:08.155Z",
+        "firstPublishedAt": "2024-06-18T02:49:08.155Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/content_types/company"
+      },
+      "displayField": "heroTitle",
+      "name": "Company",
+      "description": "",
+      "fields": [
+        {
+          "id": "heroTitle",
+          "name": "heroTitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heroSubtitle",
+          "name": "heroSubtitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "companyOverview",
+          "name": "companyOverview",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "products",
+          "name": "products",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "testimonials",
+          "name": "testimonials",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "aboutUs",
+        "type": "ContentType",
+        "createdAt": "2024-06-18T02:53:17.823Z",
+        "updatedAt": "2024-06-18T03:16:24.680Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 15,
+        "publishedAt": "2024-06-18T03:16:24.680Z",
+        "firstPublishedAt": "2024-06-18T02:53:18.404Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 8,
+        "version": 16,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/content_types/aboutUs"
+      },
+      "displayField": "history",
+      "name": "AboutUs",
+      "description": "",
+      "fields": [
+        {
+          "id": "history",
+          "name": "history",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "teamMembers",
+          "name": "teamMembers",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "culture",
+          "name": "culture",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "homePage",
+        "type": "ContentType",
+        "createdAt": "2024-06-18T02:53:49.242Z",
+        "updatedAt": "2024-06-18T02:53:49.793Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-06-18T02:53:49.793Z",
+        "firstPublishedAt": "2024-06-18T02:53:49.793Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/content_types/homePage"
+      },
+      "displayField": "heroTitle",
+      "name": "HomePage",
+      "description": "",
+      "fields": [
+        {
+          "id": "heroTitle",
+          "name": "heroTitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heroSubtitle",
+          "name": "heroSubtitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "companyOverview",
+          "name": "companyOverview",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "products",
+          "name": "products",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "testimonials",
+          "name": "testimonials",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "service",
+        "type": "ContentType",
+        "createdAt": "2024-06-18T02:54:57.442Z",
+        "updatedAt": "2024-06-18T02:54:57.968Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-06-18T02:54:57.968Z",
+        "firstPublishedAt": "2024-06-18T02:54:57.968Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/content_types/service"
+      },
+      "displayField": "title",
+      "name": "Service",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "description",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "pricing",
+          "name": "pricing",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "teamMember",
+        "type": "ContentType",
+        "createdAt": "2024-06-18T02:56:21.046Z",
+        "updatedAt": "2024-06-18T02:56:21.727Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-06-18T02:56:21.727Z",
+        "firstPublishedAt": "2024-06-18T02:56:21.727Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/content_types/teamMember"
+      },
+      "displayField": "name",
+      "name": "TeamMember",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "description",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "product",
+        "type": "ContentType",
+        "createdAt": "2024-06-18T02:56:59.097Z",
+        "updatedAt": "2024-06-18T02:56:59.713Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-06-18T02:56:59.713Z",
+        "firstPublishedAt": "2024-06-18T02:56:59.713Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/content_types/product"
+      },
+      "displayField": "title",
+      "name": "Product",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "description",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "testimonial",
+        "type": "ContentType",
+        "createdAt": "2024-06-18T02:57:34.142Z",
+        "updatedAt": "2024-06-18T02:57:34.753Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-06-18T02:57:34.753Z",
+        "firstPublishedAt": "2024-06-18T02:57:34.753Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/content_types/testimonial"
+      },
+      "displayField": "quote",
+      "name": "Testimonial",
+      "description": "",
+      "fields": [
+        {
+          "id": "quote",
+          "name": "quote",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "author",
+          "name": "author",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b3jocvvhl9mu",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-06-14T00:29:08.387Z",
+        "createdBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-14T00:29:09.495Z",
+        "updatedBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "blog",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "summary",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "details",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "articleimage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "createdAt",
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b3jocvvhl9mu",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-06-18T02:49:08.365Z",
+        "createdBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-18T02:49:09.235Z",
+        "updatedBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "company",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "heroTitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heroSubtitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "companyOverview",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "products",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "testimonials",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b3jocvvhl9mu",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 16,
+        "createdAt": "2024-06-18T02:53:18.614Z",
+        "createdBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-18T03:16:25.799Z",
+        "updatedBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "aboutUs",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "history",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "teamMembers",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "culture",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b3jocvvhl9mu",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-06-18T02:53:50.018Z",
+        "createdBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-18T02:53:50.599Z",
+        "updatedBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "homePage",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "heroTitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heroSubtitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "companyOverview",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "products",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "testimonials",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b3jocvvhl9mu",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-06-18T02:54:58.107Z",
+        "createdBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-18T02:54:59.042Z",
+        "updatedBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "service",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "pricing",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b3jocvvhl9mu",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-06-18T02:56:21.915Z",
+        "createdBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-18T02:56:22.882Z",
+        "updatedBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "teamMember",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "title",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b3jocvvhl9mu",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-06-18T02:56:59.849Z",
+        "createdBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-18T02:57:01.123Z",
+        "updatedBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "product",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "b3jocvvhl9mu",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-06-18T02:57:34.873Z",
+        "createdBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-18T02:57:35.806Z",
+        "updatedBy": {
+          "sys": {
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "testimonial",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "quote",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "2OK5x6LEkVFPcdxSerFpYQ",
+        "type": "Entry",
+        "createdAt": "2024-06-14T00:33:09.677Z",
+        "updatedAt": "2024-06-14T00:39:05.130Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2024-06-14T00:39:05.130Z",
+        "firstPublishedAt": "2024-06-14T00:39:05.130Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blog"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/entries/2OK5x6LEkVFPcdxSerFpYQ"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Tuberkulosis (TBC) -  Gejala, Penyebab, dan Pengobatan"
+        },
+        "slug": {
+          "en-US": "tuberkulosis-tbc-gejala-penyebab-dan-pengobatan"
+        },
+        "summary": {
+          "en-US": "Apa itu Tuberkulosis (TBC)? "
+        },
+        "details": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Apa itu Tuberkulosis (TBC)? ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Tuberkulosis atau sering disingkat TB atau TBC adalah penyakit menular yang disebabkan oleh bakteri Mycobacterium tuberculosis. Penyakit ini dapat menyerang siapa saja dan organ tubuh yang diserang biasanya adalah paru-paru, tulang belakang, kulit, otak, kelenjar getah bening, dan jantung.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Menurut Organisasi Kesehatan Dunia",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": " (WHO)",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", Setiap tahunnya, 10 juta orang terjangkit tuberkulosis (TB). Meskipun penyakit ini dapat dicegah dan disembuhkan, 1,5 juta orang meninggal karena TBC setiap tahunnya – menjadikannya penyakit menular pembunuh terbesar di dunia.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Penyebab Tuberkulosis",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Tuberkulosis (TBC) disebabkan oleh infeksi bakteri ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "Mycobacterium tuberculosis",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ". Bakteri ini menyebar ketika seseorang menghirup percikan ludah (droplet) saat penderita TBC batuk, berbicara, bersin, tertawa, atau bernyanyi.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Meski TBC dikategorikan sebagai penyakit menular, penularan penyakit ini tidak secepat pilek dan flu. Namun, ada beberapa kelompok yang berisiko tinggi tertular TBC, yaitu :",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Orang yang tinggal di pemukiman padat dan kumuh.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Petugas medis yang sering merawat penderita TBC.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Orang lanjut usia (lansia) dan anak-anak.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Pengguna NAPZA",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Penderita penyakit ginjal stadium lanjut.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Orang yang mengalami kekurangan gizi.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Penderita kecanduan alcohol.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Perokok",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Orang dengan kekebalan tubuh yang lemah, misalnya penderita HIV/AIDS, kanker, diabetes, orang yang menjalani transplantasi organ, dan lain sebagainya.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Orang yang sedang dalam terapi obat imunosupresif, misalnya penderita lupus, psoriasis, rheumatoid arthritis, atau penyakit Crohn.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  }
+                ],
+                "nodeType": "ordered-list"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Gejala Tuberkulosis",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Beberapa gejala atau ciri-ciri umum dari TBC antara lain :",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Batuk Berkepanjangan.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Nyeri Dada.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Kelelahan.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Berkeringat di malam hari.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Demam.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Penurunan Berat Badan.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Nyeri Dada.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  }
+                ],
+                "nodeType": "unordered-list"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Seringkali, gejala-gejala ini tidak terlalu parah selama berbulan-bulan, sehingga menyebabkan keterlambatan dalam mencari perawatan dan meningkatkan risiko penyebaran infeksi ke orang lain. ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Pengobatan dan Pencegahan Tuberkulosis (TBC) ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Penyakit TBC bisa disembuhkan. Penyakit ini diobati dengan 4 antibiotik standar selama 6 bulan. Obat yang umum termasuk rifampisin dan isoniazid. Dalam beberapa kasus, bakteri TBC tidak merespons obat standar. Dalam kasus ini, pasien menderita TBC yang resistan terhadap obat. Pengobatan TBC yang resistan terhadap obat memerlukan waktu yang lebih lama dan kompleks. ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Pencegahan terhadap Tuberkulosis (TBC) dapat dilakukan dengan pemberian ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "vaksin BCG (Bacillus Calmette-Guerin).",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " Vaksin bacille Calmette-Guérin (BCG) telah ada selama 80 tahun dan merupakan salah satu vaksin yang paling banyak digunakan saat ini, dengan jumlah >80% neonatus dan bayi di negara-negara yang menerapkan vaksin tersebut sebagai bagian dari program imunisasi anak nasional. Vaksin BCG terbukti mempunyai efek perlindungan terhadap meningitis dan TBC pada anak-anak. Hal ini tidak mencegah infeksi primer dan, yang lebih penting, tidak mencegah reaktivasi infeksi paru laten, yang merupakan sumber utama penyebaran bakteri di masyarakat. Oleh karena itu, dampak vaksinasi BCG terhadap penularan TBC terbatas.\n\n",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Referensi: ",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Kemenkes. 2023. Tuberkulosis.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "WHO. 2023. Tuberculosis.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Kemenkes. 2024. Apa itu Penyakit TBC.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "articleimage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4utCsV3isjWrkJeMnPHNQp"
+            }
+          }
+        },
+        "author": {
+          "en-US": "Budi"
+        },
+        "createdAt": {
+          "en-US": "2024-06-12T00:00+07:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "2qW4PCv3UjuLPyW7YGTjfa",
+        "type": "Entry",
+        "createdAt": "2024-06-18T03:04:01.972Z",
+        "updatedAt": "2024-06-18T03:08:43.231Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2024-06-18T03:08:43.231Z",
+        "firstPublishedAt": "2024-06-18T03:08:43.231Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "homePage"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/entries/2qW4PCv3UjuLPyW7YGTjfa"
+      },
+      "fields": {
+        "heroTitle": {
+          "en-US": "Welcome to Tech Innovators Inc."
+        },
+        "heroSubtitle": {
+          "en-US": "Pioneering Solutions for Tomorrow's Challenges."
+        },
+        "companyOverview": {
+          "en-US": "Tech Innovators Inc. has been at the forefront of technological advancements for over 20 years. Our mission is to drive innovation and deliver high-quality solutions that meet the evolving needs of our clients. We are committed to excellence in every aspect of our business, from product development to customer service. Our diverse team of experts works collaboratively to create products that not only solve today's problems but also anticipate future challenges."
+        },
+        "products": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3IGuEjYSKUi7yehuWGNXmR"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "fIQ0Ydy1AYORhEfX85Sgh"
+              }
+            }
+          ]
+        },
+        "testimonials": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "wvybtMSPsheY4mGuugePq"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6z1S0d6rrdtsgtGV4awgRP"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "3IGuEjYSKUi7yehuWGNXmR",
+        "type": "Entry",
+        "createdAt": "2024-06-18T03:05:19.647Z",
+        "updatedAt": "2024-06-18T03:09:03.706Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2024-06-18T03:09:03.706Z",
+        "firstPublishedAt": "2024-06-18T03:09:03.706Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "product"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/entries/3IGuEjYSKUi7yehuWGNXmR"
+      },
+      "fields": {
+        "title": {
+          "en-US": "SmartHome Automation System"
+        },
+        "description": {
+          "en-US": "Our SmartHome Automation System allows you to control all your home devices from a single app. Whether it's lighting, heating, or security, our system ensures your home is safe and energy-efficient."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "fIQ0Ydy1AYORhEfX85Sgh",
+        "type": "Entry",
+        "createdAt": "2024-06-18T03:05:52.894Z",
+        "updatedAt": "2024-06-18T03:09:03.662Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2024-06-18T03:09:03.662Z",
+        "firstPublishedAt": "2024-06-18T03:09:03.662Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "product"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/entries/fIQ0Ydy1AYORhEfX85Sgh"
+      },
+      "fields": {
+        "title": {
+          "en-US": "EcoDrive Electric Vehicle"
+        },
+        "description": {
+          "en-US": "EcoDrive is our latest electric vehicle designed for maximum efficiency and minimal environmental impact. With a range of up to 300 miles on a single charge, EcoDrive combines performance with sustainability"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "wvybtMSPsheY4mGuugePq",
+        "type": "Entry",
+        "createdAt": "2024-06-18T03:06:18.143Z",
+        "updatedAt": "2024-06-18T03:09:04.023Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2024-06-18T03:09:04.023Z",
+        "firstPublishedAt": "2024-06-18T03:09:04.023Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "testimonial"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/entries/wvybtMSPsheY4mGuugePq"
+      },
+      "fields": {
+        "quote": {
+          "en-US": "Tech Innovators Inc. provided us with an outstanding SmartHome solution that has transformed how we manage our home. Their support team was always there to help us through the installation process"
+        },
+        "author": {
+          "en-US": "Sarah Thompson"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "6z1S0d6rrdtsgtGV4awgRP",
+        "type": "Entry",
+        "createdAt": "2024-06-18T03:06:48.203Z",
+        "updatedAt": "2024-06-18T03:09:03.922Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-18T03:09:03.922Z",
+        "firstPublishedAt": "2024-06-18T03:09:03.922Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "testimonial"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/entries/6z1S0d6rrdtsgtGV4awgRP"
+      },
+      "fields": {
+        "quote": {
+          "en-US": "The EcoDrive Electric Vehicle is a game-changer. Not only is it environmentally friendly, but it also offers a smooth and powerful driving experience. I highly recommend it to anyone looking for an electric car."
+        },
+        "author": {
+          "en-US": "Michael Brown"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "3JiRLdnwQmr2HpLCJmaCm0",
+        "type": "Entry",
+        "createdAt": "2024-06-18T03:14:35.914Z",
+        "updatedAt": "2024-06-18T03:16:48.373Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2024-06-18T03:16:48.373Z",
+        "firstPublishedAt": "2024-06-18T03:16:48.373Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "aboutUs"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/entries/3JiRLdnwQmr2HpLCJmaCm0"
+      },
+      "fields": {
+        "history": {
+          "en-US": "Founded in 2000, Tech Innovators Inc. started with a small team of passionate engineers who believed in the power of technology to improve lives. Over the past two decades, we have grown into a global company with a reputation for excellence and innovation. Our journey has been marked by numerous milestones, including the launch of our first SmartHome product in 2005 and our expansion into electric vehicles in 2015"
+        },
+        "culture": {
+          "en-US": "At Tech Innovators Inc., we foster a culture of creativity and inclusivity. We believe that diverse perspectives lead to better solutions, and we encourage our team members to share their ideas freely. Our workplace is characterized by a collaborative spirit, where everyone's contributions are valued and recognized. We are committed to continuous learning and development, providing our employees with opportunities to grow both personally and professionally."
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "id": "4utCsV3isjWrkJeMnPHNQp",
+        "type": "Asset",
+        "createdAt": "2024-06-14T00:36:53.129Z",
+        "updatedAt": "2024-06-14T00:38:52.353Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2024-06-14T00:38:52.353Z",
+        "firstPublishedAt": "2024-06-14T00:38:52.353Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/b3jocvvhl9mu/environments/master/assets/4utCsV3isjWrkJeMnPHNQp"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Tuberkulosis"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/b3jocvvhl9mu/4utCsV3isjWrkJeMnPHNQp/1131f071358adf3d9e8fc6310b8f8a1c/tbc.png",
+            "details": {
+              "size": 9057936,
+              "image": {
+                "width": 6000,
+                "height": 4000
+              }
+            },
+            "fileName": "tbc.png",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "1Hgcx7RWStfZ6nDqephOO3",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "1e1110d3-7b9a-48e8-9482-1c574817efda"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "createdAt": "2024-06-14T00:23:16Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedAt": "2024-06-14T00:23:16Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "1HwntSebWSIQrZBvBAptM3",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "b3jocvvhl9mu"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "createdAt": "2024-06-14T00:23:16Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6ZgWQ0yIBhg97GlYb3eQxB"
+          }
+        },
+        "updatedAt": "2024-06-14T00:23:16Z"
+      }
+    }
+  ]
+}
