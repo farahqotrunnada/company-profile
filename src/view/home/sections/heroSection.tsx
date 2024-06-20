@@ -42,6 +42,9 @@ const HeroSection = async () => {
         alignItems: 'center',
         justifyContent: 'left',
         paddingLeft: '5%',
+        '@media (max-width: 600px)': {
+          paddingLeft: '2%',
+        },
       }}
     >
       <Image
@@ -60,14 +63,35 @@ const HeroSection = async () => {
           textAlign: 'left',
           maxWidth: '600px',
           padding: '2rem',
-          background: 'rgba(0, 0, 0, 0.5)', // Optional: add background for better text readability
-          borderRadius: '10px', // Optional: add border-radius
+          background: 'rgba(0, 0, 0, 0.5)', 
+          borderRadius: '10px',
+          '@media (max-width: 650px)': {
+            width: '90%'
+          },
         }}
       >
-        <Typography variant="h2" gutterBottom sx={{ color: '#FF8C00', fontWeight: 'bold' }}>
+        <Typography 
+          variant="h2" 
+          gutterBottom 
+          sx={{ 
+            color: '#FF8C00', 
+            fontWeight: 'bold', 
+            '@media (max-width: 650px)': {
+              fontSize: '3rem'
+            },
+          }}
+        >
           {hero.title}
         </Typography>
-        <Typography variant="body1" gutterBottom>
+        <Typography 
+          variant="body1" 
+          gutterBottom
+          sx={{ 
+            '@media (max-width: 600px)': {
+              fontSize: '1rem'
+            },
+          }}
+        >
           {hero.description}
         </Typography>
         <Button variant="contained" color="secondary" sx={{ mt: 2 }} href="/services">
