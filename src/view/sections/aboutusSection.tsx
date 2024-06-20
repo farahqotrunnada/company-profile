@@ -1,5 +1,6 @@
 import React from 'react';
-import {Typography, Box } from '@mui/material';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 import { TypeAboutUsFields } from '@/types/contentful';
 import { client } from '@/utils/contentful';
 import ThemeWrapper from '../components/themeWrapper';

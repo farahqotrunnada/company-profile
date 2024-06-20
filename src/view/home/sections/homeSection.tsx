@@ -1,6 +1,6 @@
 import React from 'react';
-import {Typography, Box } from '@mui/material';
-
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 import { client } from '../../../utils/contentful';
 import { TypeHomePageFields } from '../../../types/contentful/TypeHomePage';
 import HeroSection from './heroSection';

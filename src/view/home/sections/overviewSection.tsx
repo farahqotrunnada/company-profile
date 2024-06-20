@@ -1,7 +1,11 @@
 import React from 'react';
-import { Typography, Box, Button, Grid } from '@mui/material';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Grid from '@mui/material/Grid';
 import { client } from '../../../utils/contentful';
 import { TypeHeroFields } from '@/types/contentful/TypeOverview';
+import Link from 'next/link';
 
 export async function fetchCompanyOverview() {
   try {
@@ -58,9 +62,11 @@ const OverviewSection = async () => {
                   <Typography variant="body1" color="textSecondary" paragraph>
                     {overview.fields.description}
                   </Typography>
-                  <Button variant="contained" color="secondary" sx={{ mt: 2 }} href="/services">
-                    Join Us
-                  </Button>
+                  <Link href="/services" passHref>
+                    <Button variant="contained" color="secondary" sx={{ mt: 2 }} >
+                      Join Us
+                    </Button>
+                  </Link>
                 </Box>
               </Box>
             </Grid>

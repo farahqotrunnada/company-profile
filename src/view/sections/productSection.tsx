@@ -1,7 +1,11 @@
-
-
 import React from 'react';
-import {  Typography, Box, Grid, Card, CardContent, CardMedia, Button } from '@mui/material';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
 import { TypeProductFields, TypeTestimonialFields } from '@/types/contentful';
 import { client } from '@/utils/contentful';
 import ThemeWrapper from '../components/themeWrapper';

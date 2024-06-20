@@ -3,6 +3,7 @@ import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import Link from 'next/link';
 import { client } from '../../../utils/contentful';
 import { TypeHeroFields } from '@/types/contentful/TypeHero';
 
@@ -94,9 +95,11 @@ const HeroSection = async () => {
         >
           {hero.description}
         </Typography>
-        <Button variant="contained" color="secondary" sx={{ mt: 2 }} href="/services">
-          Evolve Today
-        </Button>
+        <Link href="/services" passHref>
+          <Button variant="contained" color="secondary" sx={{ mt: 2 }}>
+            Evolve Today
+          </Button>
+        </Link>
       </Box>
     </Box>
   );

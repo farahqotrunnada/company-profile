@@ -3,7 +3,8 @@ import Footer from '@/view/components/footer';
 import Header from '@/view/components/header';
 import ProductSection from '@/view/sections/productSection';
 import ThemeWrapper from '@/view/components/themeWrapper';
-import { Container, Box } from '@mui/material';
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 
 import OverviewSection from "./sections/overviewSection";
 

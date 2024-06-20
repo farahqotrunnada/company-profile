@@ -1,4 +1,6 @@
-import { Box, Container, Typography } from "@mui/material";
+import Typography from '@mui/material/Typography';
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 import TeamSection from "../sections/teamSection";
 import ThemeWrapper from "../components/themeWrapper";
 import Header from "../components/header";
