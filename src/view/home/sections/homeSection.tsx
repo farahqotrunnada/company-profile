@@ -28,23 +28,6 @@ const HomeSection = async () => {
 
   return (
         <Box mt={4}>
-          {/* <Typography variant="h3" color="primary" gutterBottom>
-            {content.heroTitle}
-          </Typography> */}
-          {/* <Typography
-            variant="subtitle1"
-            color="textSecondary"
-            gutterBottom
-            sx={{
-              backgroundColor: '#213260',
-              padding: '10px 20px',
-              borderRadius: '5px',
-              display: 'inline-block',
-              color: 'white',
-            }}
-          >
-            {content.heroSubtitle}
-          </Typography> */}
           <HeroSection/>
           <Box mt={2}>
             <Typography variant="h4" color="primary">

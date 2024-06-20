@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import { Typography, Box, Button } from '@mui/material';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import { client } from '../../../utils/contentful';
 import { TypeHeroFields } from '@/types/contentful/TypeHero';
 
