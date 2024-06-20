@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
@@ -35,9 +36,7 @@ const HeroSection = async () => {
         position: 'relative',
         width: '100%',
         height: '600px',
-        backgroundImage: `url(${heroImageUrl})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundColor: '#ffff', // Fallback color
         color: 'white',
         display: 'flex',
         alignItems: 'center',
@@ -45,6 +44,15 @@ const HeroSection = async () => {
         paddingLeft: '5%',
       }}
     >
+      <Image
+        src={`https:${heroImageUrl}`}
+        alt={hero.title}
+        layout="fill"
+        objectFit="cover"
+        quality={75}
+        priority
+        style={{ zIndex: 1 }}
+      />
       <Box
         sx={{
           position: 'relative',
