@@ -1,12 +1,11 @@
+import HomeSection from "./sections/homeSection";
 import Footer from '@/view/components/footer';
 import Header from '@/view/components/header';
+import ProductSection from '@/view/sections/productSection';
 import ThemeWrapper from '@/view/components/themeWrapper';
-import Container from "@mui/material/Container";
-import Box from '@mui/material/Box';
-import dynamic from 'next/dynamic';
-const HomeSection = dynamic(() => import('./sections/homeSection'), { ssr: false });
-const OverviewSection = dynamic(() => import('./sections/overviewSection'), { ssr: false });
-const ProductSection = dynamic(() => import('@/view/sections/productSection'), { ssr: false });
+import { Container, Box } from '@mui/material';
+
+import OverviewSection from "./sections/overviewSection";
 
 export default function HomeView() {
   return (

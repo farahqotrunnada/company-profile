@@ -1,19 +1,11 @@
 
-import dynamic from 'next/dynamic';
+
 import React from 'react';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
+import {  Typography, Box, Grid, Card, CardContent, CardMedia, Button } from '@mui/material';
 import { TypeProductFields, TypeTestimonialFields } from '@/types/contentful';
 import { client } from '@/utils/contentful';
 import ThemeWrapper from '../components/themeWrapper';
-import Image from 'next/image';
-const CustomCarousel = dynamic(() => import('../components/customCarousel'), { ssr: false });
-
+import CustomCarousel from '../components/customCarousel';
 
 export async function fetchProducts() {
   try {
@@ -57,16 +49,12 @@ const ProductSection = async () => {
             return (
               <Grid item xs={12} sm={4} md={4} key={product.sys.id}>
                 <Card raised sx={{ display: 'flex', flexDirection: 'column', height: '100%', border: `1px solid #213260` }}>
-                <CardMedia sx={{ position: 'relative', height: '140px', width: '100%' }}>
-                  <Image
-                        src={`https:${fields.file.url}`}
-                        alt={product.fields.title}
-                        layout="fill"
-                        objectFit="cover"
-                        quality={75}
-                        loading="lazy"
-                      />
-                </CardMedia>
+                  <CardMedia
+                    component="img"
+                    height="140"
+                    image={`https:${fields.file.url}`}
+                    alt={product.fields.title}
+                  />
                   <CardContent sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
                     <CardContent sx={{ flexGrow: 1, display: 'grid', flexDirection: 'column' }}>
                       <Typography variant="h5" color="primary" sx={{ minHeight: '3.8rem' }}>

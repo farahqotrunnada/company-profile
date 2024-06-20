@@ -1,4 +1,4 @@
-import Container from "@mui/material/Container";
+import { Container } from "@mui/material";
 import ThemeWrapper from "../components/themeWrapper";
 import Header from "../components/header";
 import Footer from "../components/footer";
